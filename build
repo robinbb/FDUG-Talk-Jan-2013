@@ -1,0 +1,4 @@
+#! /bin/sh
+
+nix-shell --run \
+  'pandoc --standalone -t slidy -o slides.html slides.md'

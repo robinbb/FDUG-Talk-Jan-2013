@@ -201,7 +201,7 @@ read :: Read a => String -> a
 ~~~~ {.haskell}
 want :: x -> y
 have :: z -> y
-adapt :: z -> x
+adapt :: x -> z
 want = have . adapt
 ~~~~
 
